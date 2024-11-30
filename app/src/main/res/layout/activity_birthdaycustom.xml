@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk04"
+    tools:context=".birthdaycustom">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="218dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.5"
+        android:rotation="-19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cakebk01" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#673AB7"
+        android:rotation="180"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="BIRTHDAY"
+        android:textColor="#0C0909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#F8570765"
+        android:text="All"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#F8570765"
+        android:text="Recent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#F8570765"
+        android:text="Popular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#F8570765"
+        android:text="Customize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="770dp"
+        android:backgroundTint="#4E74E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="67dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#4E74E6"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/home01" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="67dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#4E74E6"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/cart01" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="67dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#4E74E6"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/noti01" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="67dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#4E74E6"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/pro" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="358dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="276dp"
+        app:cardBackgroundColor="#BC56E1"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="We are happy to take your customized cake. Please contact us via whatsapp or on call; "
+            android:textAlignment="center"
+            android:textColor="#ECE2E2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="150dp"
+            android:text="WhatsApp: 0774753988"
+            android:textAlignment="center"
+            android:textColor="#ECE2E2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="185dp"
+            android:text="Call: 0112233439"
+            android:textAlignment="center"
+            android:textColor="#ECE2E2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="218dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="180dp"
+        android:alpha="0.5"
+        android:rotation="11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cakebk" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

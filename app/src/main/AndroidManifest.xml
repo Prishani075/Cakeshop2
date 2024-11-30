@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cakeshop"
+        tools:targetApi="31">
+        <activity
+            android:name=".finalconfi"
+            android:exported="false" />
+        <activity
+            android:name=".confirmation"
+            android:exported="false" />
+        <activity
+            android:name=".mycart"
+            android:exported="false" />
+        <activity
+            android:name=".message"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".bnfrock"
+            android:exported="false" />
+        <activity
+            android:name=".bnbook"
+            android:exported="false" />
+        <activity
+            android:name=".bnmickeymouse"
+            android:exported="false" />
+        <activity
+            android:name=".bncinderella"
+            android:exported="false" />
+        <activity
+            android:name=".bnface"
+            android:exported="false" />
+        <activity
+            android:name=".bnmermaid"
+            android:exported="false" />
+        <activity
+            android:name=".bndoll"
+            android:exported="false" />
+        <activity
+            android:name=".bnshirt"
+            android:exported="false" />
+        <activity
+            android:name=".bntebby"
+            android:exported="false" />
+        <activity
+            android:name=".bncar"
+            android:exported="false" />
+        <activity
+            android:name=".bnribbon"
+            android:exported="false" />
+        <activity
+            android:name=".bnblueberry"
+            android:exported="false" />
+        <activity
+            android:name=".bngreenapple"
+            android:exported="false" />
+        <activity
+            android:name=".bnalmond"
+            android:exported="false" />
+        <activity
+            android:name=".bnpista"
+            android:exported="false" />
+        <activity
+            android:name=".bnvanilla"
+            android:exported="false" />
+        <activity
+            android:name=".bnstrawberry"
+            android:exported="false" />
+        <activity
+            android:name=".bnmango"
+            android:exported="false" />
+        <activity
+            android:name=".bnpineapple"
+            android:exported="false" />
+        <activity
+            android:name=".bndatecake"
+            android:exported="false" />
+        <activity
+            android:name=".bnmangoblueberry"
+            android:exported="false" />
+        <activity
+            android:name=".bnmangostrawberry"
+            android:exported="false" />
+        <activity
+            android:name=".bnchocoblueberry"
+            android:exported="false" />
+        <activity
+            android:name=".bnchocovanilla"
+            android:exported="false" />
+        <activity
+            android:name=".bnchocoalmond"
+            android:exported="false" />
+        <activity
+            android:name=".bnredvelvet"
+            android:exported="false" />
+        <activity
+            android:name=".bnblackforest"
+            android:exported="false" />
+        <activity
+            android:name=".bnchocolate"
+            android:exported="false" />
+        <activity
+            android:name=".bnbutterscotch"
+            android:exported="false" />
+        <activity
+            android:name=".bnwf"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".birthdaycustom"
+            android:exported="false" />
+        <activity
+            android:name=".birthdaypopular"
+            android:exported="false" />
+        <activity
+            android:name=".birthdayrecent"
+            android:exported="false" />
+        <activity
+            android:name=".birthday"
+            android:exported="false" />
+        <activity
+            android:name=".classicseason"
+            android:exported="false" />
+        <activity
+            android:name=".classicpopular"
+            android:exported="false" />
+        <activity
+            android:name=".Classicrecent"
+            android:exported="false" />
+        <activity
+            android:name=".Classic"
+            android:exported="false" />
+        <activity
+            android:name=".executiveseason"
+            android:exported="false" />
+        <activity
+            android:name=".executiverecent"
+            android:exported="false" />
+        <activity
+            android:name=".executivepopular"
+            android:exported="false" />
+        <activity
+            android:name=".Executive"
+            android:exported="false" />
+        <activity
+            android:name=".royalseason"
+            android:exported="false" />
+        <activity
+            android:name=".royalpopular"
+            android:exported="false" />
+        <activity
+            android:name=".royalrecent"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Royal"
+            android:exported="false" />
+        <activity
+            android:name=".bnchristmas"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
